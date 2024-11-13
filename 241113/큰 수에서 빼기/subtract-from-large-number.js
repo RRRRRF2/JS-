@@ -9,5 +9,5 @@ if(a < b){
     console.log(b-a);
 }
 else{
-    console(a-b);
+    console.log(a-b);
 }
