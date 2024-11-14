@@ -11,7 +11,7 @@ else if(a >=70){
     console.log("C");
 }
 else if(a >=60){
-    console.log("d");
+    console.log("D");
 }
 else{
     console.log("F")
