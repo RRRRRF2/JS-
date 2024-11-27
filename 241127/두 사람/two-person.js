@@ -7,4 +7,5 @@ let c = Number(input[2]);
 let d = input[3];
 
 if((a >= 19 || c >= 19 ) && b == "M") console.log(1);
+else if((a >= 19 || c >= 19 ) && d == "M") console.log(1);
 else console.log(0);
