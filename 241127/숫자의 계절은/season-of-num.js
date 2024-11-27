@@ -4,4 +4,4 @@ let a = Number(fs.readFileSync(0).toString().trim());
 if(3<= a && a <= 5) console.log("Spring");
 else if(6<= a && a <= 7) console.log("Summer");
 else if(9<= a && a <= 11) console.log("Fall");
-else console.log("Winter");
+else if(12<= a && a <= 2) console.log("Winter");
