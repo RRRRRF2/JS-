@@ -8,4 +8,4 @@ if(y % 4 ==0){
     else{
     console.log("true");
 }
-}
+}else console.log("false")
