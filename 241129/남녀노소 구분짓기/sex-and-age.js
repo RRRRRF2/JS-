@@ -1,0 +1,14 @@
+const fs = require("fs");
+let input = fs.readFileSync(0).toString().trim().split(/\s+/);
+
+let a = Number(input[0]);
+let b = Number(input[1]);
+
+if(a == 0){
+    if(b >=20) console.log("MAN");
+    else console.log("BOY");
+}
+else{
+    if(b >=20) console.log("WOMAN");
+    else console.log("GIRL");
+}
