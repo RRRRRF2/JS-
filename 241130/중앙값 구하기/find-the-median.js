@@ -5,7 +5,7 @@ let a = Number(input[0]);
 let b = Number(input[1]);
 let c = Number(input[2]);
 
-if(a >= b){
+if(a >= b){     //a < b    b < c
     if(a <= c){
         console.log(a);
     }
@@ -20,9 +20,9 @@ if(a >= b){
 }
 else{
     if(b <= c){
-        console.log(c);
+        console.log(b);
     }
-    else{   // b>a , b>c
+    else{   
         if(a >= c){
             console.log(a);
         }
