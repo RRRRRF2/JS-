@@ -9,5 +9,8 @@ if(Number.isInteger(a) && a>0){
         result += a;
     }
 }
+else if(a<=0){
+    console.log(0);
+}
 
 console.log(result);
